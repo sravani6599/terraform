@@ -16,7 +16,7 @@ resource "aws_instance" "ec2_pro" {
 
     instance_type = "${var.instance_type}"
 
-    key_name = "terrademo"
+    key_name = "jenkins"
 
     #count = var.instance_count
 
